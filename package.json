@@ -1,0 +1,34 @@
+{
+  "name": "react-calculator",
+  "version": "1.0.0",
+  "description": "for weekly test ",
+  "main": "App.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livujjwal/react-calculator.git"
+  },
+  "author": "Ujjwal Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livujjwal/react-calculator/issues"
+  },
+  "homepage": "https://github.com/livujjwal/react-calculator#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "homepage": "https://livujjwal.github.io/(ripo-name)", 
+    "gh-pages": "^6.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1"
+  }
+}

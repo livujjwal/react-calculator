@@ -1,0 +1,30 @@
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    width: 489px; 
+    height: 473px; 
+    background:white;
+     box-shadow: -30px 20px 100px 10px rgba(250.75, 24.03, 78.44, 0.47);
+     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
